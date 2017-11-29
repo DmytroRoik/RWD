@@ -3,7 +3,14 @@
 	margin: auto;
 	width: 80%;
 }
-
+ul{
+	list-style: none;
+	
+}
+html,body,ul{ 
+	padding: 0;
+	margin: 0;
+	 }
 /*///general end//////////*/
 
 
@@ -51,7 +58,7 @@ aside{
 	background-color: #ff5607;
 	min-width: 40%;
 	padding: 5px 0;
-	margin: 10px;
+	margin: 10px 30px 10px 15px;
 	text-align:center;
 }
 
@@ -71,4 +78,24 @@ article{
 	text-align: center;
 }
 
-
+footer{
+	background-color: #00d169;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+}
+.footer_ul{
+	background-color: #02b15a;
+	margin: 5px;
+	padding: 20px;
+	
+}
+.footer_li{
+	margin: 10px;
+	padding: 10px;
+	background-color: #038042;
+	min-width: 150px;
+	
+text-align: center;
+}
