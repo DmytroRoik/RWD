@@ -1,7 +1,6 @@
 /*///general start/////////*/
 ul{
 	list-style: none;
-	
 }
 html,body,ul{
 	padding: 0;
@@ -38,6 +37,7 @@ main{
 	display: flex;
 	flex-direction: row;
 }
+
 aside{
 	min-width: 100px;
 	display: flex;
@@ -83,14 +83,12 @@ footer{
 	background-color: #02b15a;
 	margin: 5px;
 	padding: 20px;
-	
 }
 .footer_li{
 	margin: 10px;
 	padding: 10px;
 	background-color: #038042;
 	min-width: 150px;
-	
 	text-align: center;
 }
 /*///footer end//////////*/
@@ -101,10 +99,15 @@ footer{
 		width: 80%;
 	}
 }
-@media(min-width: 600px) and (max-width: 1240px){
+@media(min-width: 376px) and (max-width: 1240px){
 	.container{
 		width: 100%;
 	}
+	.header-container{
+	justify-content: space-around;
+	align-items:center;
+	min-height: 100px;
+}
 }
 
 @media  (max-width: 375px){
@@ -138,7 +141,3 @@ footer{
 	flex-direction: column;
 }
 }
-
-
-
-
