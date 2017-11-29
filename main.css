@@ -3,6 +3,7 @@
 	margin: auto;
 	width: 80%;
 }
+
 /*///general end//////////*/
 
 
@@ -38,12 +39,13 @@ main{
 	flex-direction: row;
 }
 aside{
+	min-width: 100px;
 	display: flex;
 	flex-direction: column;
-	flex-grow: 1;
-	justify-content: space-between;
+	flex-grow: 2;
+	justify-content: flex-start;
 	background-color: #e84900;
-	flex-grow: 1;
+
 }
 .aside_div{
 	background-color: #ff5607;
@@ -54,20 +56,19 @@ aside{
 }
 
 article{
-	display: flex;
-	flex-direction: column;
+	margin: 10px;
+	max-width: 75%;
 	flex-grow: 3;
-	justify-content: flex-start;
 }
 .photo_div{
+	margin: 10px 40px 0 0;
+	float: left;
 	background-color: #ffbd00;
-	flex-grow: 1;
-	align-self: flex-start;
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	border:1px solid red; 
+	width: 300px;
+	height: 150px;
 }
-.article-text{
-	flex-grow: 1;
+.article-text h2{
+	text-align: center;
 }
+
+
