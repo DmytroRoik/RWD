@@ -1,16 +1,9 @@
 /*///general start/////////*/
-.container{
-	margin: auto;
-	width: 80%;
-}
 ul{
 	list-style: none;
 	
 }
-html,body,ul{ 
-	padding: 0;
-	margin: 0;
-	 }
+
 /*///general end//////////*/
 
 
@@ -99,3 +92,19 @@ footer{
 	
 text-align: center;
 }
+
+
+@media( max-width: 1920px){
+	.container{
+	margin: auto;
+	width: 80%;
+}
+}
+@media( max-width: 1240px){
+	.container{
+		width: 100%;
+	}
+}
+
+
+
