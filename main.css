@@ -105,8 +105,10 @@ footer{
 	}
 	.header-container{
 	justify-content: space-around;
-	align-items:center;
 	min-height: 100px;
+}
+footer{
+	flex-wrap: wrap;
 }
 }
 
