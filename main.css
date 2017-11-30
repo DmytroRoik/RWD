@@ -6,7 +6,10 @@ html,body,ul{
 	padding: 0;
 	margin:0;
 }
-
+.container{
+		margin: auto;
+		width: 80%;
+	}
 /*///general end//////////*/
 /*///header start//////////*/
 header{
@@ -113,10 +116,7 @@ footer{
 /*///footer end//////////*/
 
 @media( max-width: 1920px){
-	.container{
-		margin: auto;
-		width: 80%;
-	}
+	
 }
 @media(min-width: 376px) and (max-width: 1240px){
 	.container{
