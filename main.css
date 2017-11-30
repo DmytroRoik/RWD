@@ -23,6 +23,7 @@ header{
 	min-width: 30%;
 	text-align: center;
 	padding: 15px;
+	height: 20px;
 }
 .header-div:first-child{
 	background-color: #009bdd;
@@ -42,33 +43,51 @@ aside{
 	min-width: 100px;
 	display: flex;
 	flex-direction: column;
-	flex-grow: 2;
+	flex-grow: 1;
 	justify-content: flex-start;
 	background-color: #e84900;
+	margin-right: 5px;
 
 }
 .aside_div{
 	background-color: #ff5607;
 	min-width: 40%;
-	padding: 5px 0;
+	padding: 2% 0;
 	margin: 10px 30px 10px 15px;
 	text-align:center;
 }
 
 article{
-	margin: 10px;
+	margin: 15px;
 	max-width: 75%;
 	flex-grow: 3;
+	position: relative;
 }
 .photo_div{
 	margin: 10px 40px 0 0;
-	float: left;
 	background-color: #ffbd00;
-	width: 300px;
-	height: 150px;
+	position: absolute;
+	width: 40%;
+	height: 250px;
 }
-.article-text h2{
-	text-align: center;
+.article-text {
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+}
+.parag{
+background-color: #cecece;
+min-height: 25px;
+width: 55%;
+margin: 10px;
+align-self: flex-end;
+}
+.title{
+	height: 35px;
+	background-color: #9d9d9d;
+}
+.parag:nth-child(n+7){
+	width: 100%;
 }
 /*///main end//////////*/
 /*///footer start//////////*/
@@ -89,7 +108,6 @@ footer{
 	padding: 10px;
 	background-color: #038042;
 	min-width: 150px;
-	text-align: center;
 }
 /*///footer end//////////*/
 
@@ -124,7 +142,9 @@ footer{
 	}
 	aside{
 		flex-direction: row;
+		width: 100%;
 		justify-content: space-around;
+		height: 40px;
 	}
 	.aside_div{
 		min-width: 8%;
@@ -136,9 +156,13 @@ footer{
 	}
 	.photo_div{
 		width: 100%;
-		height: 200px;
-		margin-bottom: 20px;
+		position: static;
 	}
+	.parag{
+width: 100%;
+margin: 10px;
+align-self: center;
+}
 	footer{
 	flex-direction: column;
 }
