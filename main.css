@@ -154,8 +154,11 @@ footer{
 		height: 70px;
 	}
 	.aside_div{
-		min-width: 40px;
+		min-width: 60px;
 		margin: 0;
+	}
+	.aside_div:nth-child(n+4){
+		display: none;
 	}
 	article{
 		text-align: justify;
