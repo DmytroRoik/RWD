@@ -49,16 +49,17 @@ aside{
 	flex-direction: column;
 	flex-grow: 1;
 	justify-content: flex-start;
+	align-items: flex-start;
 	background-color: #e84900;
 	margin-right: 5px;
 
 }
 .aside_div{
 	background-color: #ff5607;
-	min-width: 40%;
 	height: 30px;
 	padding: 2% 0;
-	margin: 10px 30px 10px 15px;
+	width:85%;
+	margin: 10px;
 }
 
 article{
@@ -149,13 +150,12 @@ footer{
 	aside{
 		flex-direction: row;
 		width: 100%;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 		height: 70px;
 	}
 	.aside_div{
-		min-width: 60px;
-		margin: 0;
+		margin: 10px;
 	}
 	.aside_div:nth-child(n+4){
 		display: none;
