@@ -132,7 +132,7 @@ footer{
 	}
 }
 
-@media  (max-width: 375px){
+@media( max-width: 375px){
 	.container{
 		width: 100%;
 	}
